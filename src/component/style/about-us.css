@@ -1,0 +1,61 @@
+.about-us-section {
+    height: 44%;
+}
+
+.about-us-main-text {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 2rem;
+}
+
+.about-us-img {
+    position: relative;
+    left: 9%;
+}
+
+.about-us-description {
+    display: flex;
+    width: 88%;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.about-us-text {
+    width: 52%;
+    display: flex;
+    align-self: center;
+    font-size: 1.5rem;
+}
+
+.center-block {
+    position: relative;
+    left: 14.5%;
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.go-to-catalog {
+    display: flex;
+    width: 10%;
+    height: 6.5%;
+    top: -3%;
+    border-radius: 2rem;
+    position: relative;
+    right: 47.1%;
+    align-self: flex-end;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+.go-to-catalog:hover {
+    transition: all 1s ease;
+    background-color: rgb(243, 237, 237);
+}
+
+.about-us-img-second {
+    left: 3%;
+    position: relative;
+}
