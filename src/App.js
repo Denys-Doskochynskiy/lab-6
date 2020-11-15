@@ -1,26 +1,49 @@
 
 import './App.css';
-import NavigationSection from './component/navigation-section';
-import Header from './component/header';
-import AboutUs from './component/about-us';
-import TopProduct from './component/top-product';
-import Footer from './component/footer';
+import NavigationSection from './component/Header/navigation-section';
+import Header from './component/Header/header';
+import AboutUs from './component/Layout/about-us';
+import TopProduct from './component/Layout/top-product';
+import Footer from './component/Footer/footer';
 import Line from './component/line';
+
 import LineMidl from './component/line-midl';
-function App() {
+import { BrowserRouter } from 'react-router-dom'
+import { Route } from 'react-router-dom'
+import Catalog_element from './component/Catalog/catalog-element'
+import Catalog from './component/Header/catalog'
+
+import React, { Component } from 'react';
+
+function App () {
+
+ 
+  
   return (
+    <BrowserRouter>
     <div className="App">
-      <Header />
+   
+    <Route exact path='/' component= {Header} />
+    <Route exact path='/catalog' component= {Catalog} />
+        
+    
+       
       <Line />
-      <NavigationSection/>
+
+      <NavigationSection />
       <LineMidl />
-      <AboutUs />
+      <Route exact path='/catalog' component= {Catalog_element} />
+      <Route exact path='/' component= {AboutUs} />  
       <LineMidl />
-      <TopProduct />
+    
+      <Route exact path='/' component= {TopProduct} />   
       <Line />
       <Footer />
+     
     </div>
+    </BrowserRouter>
   );
+  
 }
 
-export default App;
+ export default App

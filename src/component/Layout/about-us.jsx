@@ -1,4 +1,4 @@
-import './style/about-us.css';
+import '../style/Layout/about-us.css';
 function AboutUs() {
     return (
         <div className="about-us-section">

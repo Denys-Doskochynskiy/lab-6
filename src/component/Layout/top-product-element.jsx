@@ -1,5 +1,5 @@
 
-import './style/element.css';
+import '../style/Layout/element.css';
 function Element(props) {
     return (
         <div className="element">

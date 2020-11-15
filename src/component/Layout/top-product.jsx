@@ -1,5 +1,5 @@
-import Element from './top-product-element'
-import './style/top-product.css';
+import Element from '../Layout/top-product-element'
+import '../style/Layout/top-product.css';
 function TopProduct() {
     return (
         <div className="section">

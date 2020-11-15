@@ -1,14 +1,12 @@
-import './style/header.css';
-function Header(){
+import '../style/HeaderFooter/header.css';
+function Catalog(){
     return(
         <div className="section-header">
             <spam className="header-name">
-                Home page
+                Catalog
             </spam>
-
-
         </div>
         
     );
 }
-export default Header
+export default Catalog
