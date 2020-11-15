@@ -15,7 +15,7 @@ Here you can find such manhvas as "Solo leveling" ,"Tower of God" ,"Demon Slayer
 ,and much more truly unique and exciting reading
 <br></br>
 So thank you for visiting and enjoy your shopping)))</span>
-            <p className="go-to-catalog">Go to catalog</p>
+            <a className="go-to-catalog" href="/catalog">Go to catalog</a>
             </div>
             <iframe src="https://assets.pinterest.com/ext/embed.html?id=168110998580326289" height="600" width="490" frameborder="0" scrolling="no" className="about-us-img-second" alt="FUCK" title="Anistore foto"></iframe>
             </div>
