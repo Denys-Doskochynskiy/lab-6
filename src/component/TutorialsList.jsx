@@ -1,7 +1,7 @@
 import React, { useState, setState/* useEffect */ } from "react";
 import { useList } from "react-firebase-hooks/database";
 import TutorialDataService from "../services/Service";
-import { Link } from "react-router-dom";
+
 
 import './style/catalog.css';
 
@@ -13,7 +13,7 @@ const TutorialsList = () => {
 
 
   console.log(title)
-  let test = tutorials.filter(tutorial => tutorial.val().name.toLowerCase().includes(title))
+  var test = tutorials.filter(tutorial => tutorial.val().name.toLowerCase().includes(title))
   tutorials = test;
 
 
@@ -22,7 +22,8 @@ const TutorialsList = () => {
     <div className="catalog-container">
       <div className="catalog-body">
         {loading && <div class="loader"></div>}
-        <input type="text" className="find-magazin" onChange={event => setTitle(event.target.value)} />
+        <p className="find-text">Find:</p>
+        <input id="find"type="text" className="find-magazin" onChange={event => setTitle(event.target.value)} />
         <ul
           className={"grid-list"}
         >

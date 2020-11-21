@@ -2,12 +2,14 @@
     display: flex;
     width: 100%;
     justify-content: center;
-    height: 3.3rem;
+    height: 6.5%;
+
+    
 }
 
 .footer-img-section {
     position: relative;
-    top: 38%;
+    top: 0%;
     left: 2.5%;
     align-self: center;
     transform: rotate(25deg);
@@ -16,20 +18,20 @@
 
 .footer-main-text {
 position: relative;
-top: 2rem;
+top: 10%;
 }
 
 .footer-text {
     position: relative;
-    top: 4rem;
+    top: 45%;
     width: 100%;
 right: 70%;
 }
 
 .footer-line {
  position: relative;
-top: 105%;
-right: 27.5%;
+top: 40%;
+right: 26.5%;
     width: 100%;
     height: 3.2%;
     background-color: grey;
@@ -45,22 +47,23 @@ right: 10%;
 .social{
     display: flex;
     position: relative;
-    top: 30%;
+    top: 10%;
     left: 30%;
+    height: 45%;
     justify-content: space-between;
     width: 8%;
 }
 .social-line{
     position: relative;
-    top: 140%;
-    left: 20.8%;
+    top: 60%;
+    left: 20.1%;
     
         width: 11%;
-        height: 3.2%;
+        height: 1.2%;
         background-color: grey;  
 }
 .reserved-text{
     position: relative;
-    top: 140%;
-    left: 10.2%;
+    top: 60%;
+    left: 9.9%;
 }

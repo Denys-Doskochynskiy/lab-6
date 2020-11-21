@@ -43,14 +43,7 @@ text {
     border-radius: 2rem;
 }
 
-.find-magazin {
-    position: relative;
-    height: 2.4rem;
-    font-size: 2rem;
-    top: 10rem;
-    left: 0rem;
-    width: 10rem;
-}
+
 
 .catalog-container {
     margin: 5rem;
@@ -72,7 +65,14 @@ text {
     height: 4rem;
     font-size: 2rem;
 }
-
+.grid-list {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+}
 .catalog-body {
     display: flex;
     position: relative;
@@ -88,14 +88,7 @@ test {
     width: 236px;
 }
 
-.grid-list {
-    height: 100%;
-    width: 70%;
-    display: flex;
-    justify-content: space-between;
-    display: inline-grid;
-    grid-template-columns: auto auto auto;
-}
+
 
 body {
     background-color: ghostwhite;
@@ -111,7 +104,22 @@ border-box {
     display: flex;
     flex-direction: row;
 }
-
+.find-text{
+    position: relative;
+    left: 3rem;
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: cursive;
+}
+.find-magazin {
+    position: relative;
+    height: 2.8rem;
+    font-size: 2rem;
+    border-radius: 2rem;
+    top: 4rem;
+    right:7rem;
+    width: 12rem;
+}
 .loader, .loader:before, .loader:after {
     background: #000000;;
     -webkit-animation: load1 1s infinite ease-in-out;
@@ -126,7 +134,7 @@ border-box {
     margin: 88px auto;
     position: relative;
     font-size: 11px;
-left: 87rem;
+left: 84rem;
     display:flex;
     justify-content: center;
     -webkit-transform: translateZ(0);
