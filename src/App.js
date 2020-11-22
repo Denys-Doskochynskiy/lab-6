@@ -11,7 +11,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
-import TutorialsList from "./component/TutorialsList";
+import MangasList from "./component/manga-list";
 import LineMidl from './component/line-midl';
 import { BrowserRouter } from 'react-router-dom'
 import { Route } from 'react-router-dom'
@@ -34,7 +34,7 @@ function App() {
 
         <NavigationSection />
         <LineMidl />
-        <Route exact path={["/catalog"]} component={TutorialsList} />
+        <Route exact path={["/catalog"]} component={MangasList} />
       
         <Route exact path='/' component={AboutUs} />
         <LineMidl />
