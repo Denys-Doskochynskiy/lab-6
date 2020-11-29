@@ -8,7 +8,8 @@ function AboutUs() {
         <iframe src="https://assets.pinterest.com/ext/embed.html?id=5840674502501879" height="600" width="490" frameborder="0" scrolling="no" className="about-us-img" alt="FUCK" title="Anistore foto"></iframe>
         <div className="center-block">
           <span className="about-us-text">
-            Hello, welcome to the first Ukrainian online store of manhwa and manga.
+            Hello...</span>
+<span className="about-us-text-hiden">&shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; &shy; welcome to the first Ukrainian online store of manhwa and manga.
             Here you will find exactly what you like, because our range is extremely diverse and interesting.
 
             Here you can find such manhvas as "Solo leveling" ,"Tower of God" ,"Demon Slayer"

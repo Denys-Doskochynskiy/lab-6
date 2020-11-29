@@ -20,14 +20,34 @@
     justify-content: space-around;
     flex-direction: row;
 }
+.about-us-text-hiden{
+    transition: opacity 1s ease-in-out;
+    width: 52%;
+    display: flex;
+    top: 10rem;
+    left: -30.5rem;
+   position: relative;
+   text-align: center;
+    font-size: 1.5rem;
+    opacity: 0;
+}
 
 .about-us-text {
     text-align: center;
     width: 52%;
     display: flex;
-    align-self: center;
+
+  position: relative;
+  top: 10rem;
+  left: 18rem;
     font-size: 1.5rem;
 }
+.about-us-text-hiden:hover {
+    zoom: 1;
+    filter: alpha(opacity=50);
+    opacity: 1;
+
+  }
 
 .center-block {
     position: relative;
@@ -46,12 +66,12 @@
     color: #000000;
     text-decoration: none;
     display: flex;
-    width: 10.2%;
+    width: 13.2%;
     height: 6.5%;
     top: -3%;
     border-radius: 2rem;
     position: relative;
-    right: 47.1%;
+    right: 56%;
     align-self: flex-end;
     font-size: 1.7rem;
     cursor: pointer;

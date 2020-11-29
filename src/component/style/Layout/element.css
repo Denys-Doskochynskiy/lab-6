@@ -3,13 +3,24 @@
     width:70%;
     display: flex;
 }
+
 .description{
+    transition: opacity 1s ease-in-out;
     align-self: center;
     position: relative;
     width: 50%;
+    opacity: 0;
     font-size: 1rem;
 font-weight: 600;
+ 
 }
+
+.description:hover {
+    zoom: 1;
+    filter: alpha(opacity=50);
+    opacity: 1;
+
+  }
 .name{
     transform: rotate(270deg);
     position: relative;

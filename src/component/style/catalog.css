@@ -149,7 +149,27 @@ left: 84rem;
     top: 0;
     content: '';
 }
+.filter-block{
+    position: relative;
+    right:16.5%;
+    top: 4.4rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+    font-family: cursive;
+    width: 12rem;
+    height: 2.2rem;
+    border-radius: 2rem;
 
+}
+.filter-text{
+    position: relative;
+    left: 0.5rem;
+    font-size: 3rem;
+    top: 0rem;
+    font-weight: 800;
+    
+    font-family: cursive;
+}
 .loader:before {
     left: -1.5em;
     -webkit-animation-delay: -0.32s;

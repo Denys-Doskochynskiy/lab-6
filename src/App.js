@@ -13,6 +13,7 @@ import "./App.css";
 
 import MangasList from "./component/manga-list";
 import LineMidl from './component/line-midl';
+import InfoItem from './component/info-item';
 import { BrowserRouter } from 'react-router-dom'
 import { Route } from 'react-router-dom'
 
@@ -35,7 +36,7 @@ function App() {
         <NavigationSection />
         <LineMidl />
         <Route exact path={["/catalog"]} component={MangasList} />
-      
+        <Route  path={["/catalog/info"]} component={MangasList} />
         <Route exact path='/' component={AboutUs} />
         <LineMidl />
 
