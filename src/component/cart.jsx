@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import { connect } from 'react-redux'
 import LineMidl from './line-midl'
 import './style/Cart/cart.css'
+import { Link } from 'react-router-dom';
 function Cart({ cart }) {
     const [totalPrice, setTotalPrice] = useState(0);
     const [totalItems, setTotalItems] = useState(0);
@@ -30,7 +31,7 @@ function Cart({ cart }) {
                     className={"grid-list-cart"}
                 >
                     {cart.map((item) => (
-                        <CartItem key={item.id} item={item} />
+                        <CartItem  item={item} />
                     ))}
                 </ul>
             </div>
@@ -41,7 +42,11 @@ function Cart({ cart }) {
                 <p className="totalCount">
                     Total count item: {totalItems}
                 </p>
+
                 <p className="totalPrice">Total price: ${totalPrice}</p>
+                <Link to="/buy">
+                <p>Buy this</p>
+                </Link>
             </div>
             </div>
         </div>)

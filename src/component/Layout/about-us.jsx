@@ -1,4 +1,5 @@
 import '../style/Layout/about-us.css';
+import {Link} from 'react-router-dom'
 import NavigationButton from './about-us-button'
 function AboutUs() {
   return (
@@ -17,8 +18,9 @@ function AboutUs() {
             ,and much more truly unique and exciting reading
 <br></br>
 So thank you for visiting and enjoy your shopping)))</span>
-
-          <NavigationButton rref="/catalog" class="go-to-catalog" text="Go to catalog" />
+<Link to="/catalog">
+          <NavigationButton  class="go-to-catalog" text="Go to catalog" />
+          </Link>
         </div>
         <iframe src="https://assets.pinterest.com/ext/embed.html?id=168110998580326289" height="600" width="490" frameborder="0" scrolling="no" className="about-us-img-second" alt="FUCK" title="Anistore foto"></iframe>
       </div>

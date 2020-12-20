@@ -66,12 +66,12 @@
     color: #000000;
     text-decoration: none;
     display: flex;
-    width: 13.2%;
+    width: 12rem;
     height: 6.5%;
-    top: -3%;
+    top: 33rem;
     border-radius: 2rem;
     position: relative;
-    right: 56%;
+    right:60rem;
     align-self: flex-end;
     font-size: 1.7rem;
     cursor: pointer;

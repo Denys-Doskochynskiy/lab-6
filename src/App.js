@@ -7,6 +7,7 @@ import TopProduct from './component/Layout/top-product';
 import Footer from './component/Footer/footer';
 import Line from './component/line';
 import React from "react";
+import Buy from './component/buy'
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
@@ -40,6 +41,7 @@ function App() {
           <Route exact path={["/catalog"]} component={MangasList} />
           <Route path={["/catalog/info"]} component={MangasList} />
           <Route exact path={["/cart"]} component={Cart} />
+          <Route exact path={["/buy"]} component={Buy} />
           </Switch>
           <Route exact path='/' component={AboutUs} />
 

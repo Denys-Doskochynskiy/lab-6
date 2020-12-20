@@ -1,4 +1,4 @@
-import { addItem, loadCurrentItem } from "../reducers/Add-item-to-cart"
+import { addItem} from "../reducers/Add-item-to-cart"
 import './style/catalog.css';
 import {connect} from 'react-redux'
 import NavigationButton from './manga-list-button'
@@ -16,7 +16,7 @@ function Manga({tutorial, addItem}) {
                 {/* rref={"/buy/" + tutorial.val().id} */}
                 <a onClick={() => addItem(tutorial.id)} className="a-buy" >Buy</a>
             </text>
-            {/* onClick={()=>dispatch(increment())} */}
+      
 
         </border-box>
 

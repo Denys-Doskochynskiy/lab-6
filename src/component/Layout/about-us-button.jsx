@@ -1,7 +1,11 @@
+import { Link } from 'react-router-dom';
 import '../style/Layout/about-us.css';
+
 function NavigationButton(props) {
     return (
-        <a href={props.rref} className={props.class}>{props.text}</a>
+   
+        <a  className={props.class}>{props.text}</a>
+  
     );
 }
 export default NavigationButton
